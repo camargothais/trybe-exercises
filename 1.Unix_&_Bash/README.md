@@ -1,0 +1,1 @@
+Neste mbloco aprendemos sobre o Unix, o uso do terminal e os comandos necess�para utilizá-lo. Foram realizados diversos exerc�ícios de fixação de conteúdo, tarefas e desafios durante as aulas ao vivo.
