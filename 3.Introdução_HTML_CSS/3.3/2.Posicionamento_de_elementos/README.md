@@ -1,6 +1,6 @@
 Exercícios para o bloco 3 dia 3 com o objetivo de fixar os conteúdos sobre CSS.
 
-##Seletores e Posicionamento:
+##Posicionamento de Elementos:
 Para este exercício, foram pedidos algumas alterações nos posicionamentos dos personagens pertencentes à Nintendo?
 
 1 - Posicione o Mário acima do Goomba.

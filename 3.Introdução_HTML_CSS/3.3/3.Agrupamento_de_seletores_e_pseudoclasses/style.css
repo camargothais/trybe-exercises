@@ -1,0 +1,17 @@
+h1,
+p {
+  text-align: center;
+}
+
+ol li:hover {
+  background-color: blueviolet;
+}
+
+ol li:active {
+  font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
