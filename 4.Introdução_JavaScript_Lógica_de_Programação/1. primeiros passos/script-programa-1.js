@@ -46,3 +46,15 @@ if (num1 > num2 && num1 > num3) {
 } else {
   console.log("Defina números que não são iguais.");
 }
+
+// Exercício 4:
+
+const valor = 1.62;
+
+if (valor > 0) {
+  console.log("positive");
+} else if (valor < 0) {
+  console.log("negative");
+} else {
+  console.log("zero");
+}
