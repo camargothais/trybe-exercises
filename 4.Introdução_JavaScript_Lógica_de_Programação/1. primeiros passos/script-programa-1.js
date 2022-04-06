@@ -82,26 +82,53 @@ switch (peça.toLowerCase()) {
   case "rei":
     console.log("Pode se mover em qualquer direção.");
     break;
+
   case "rainha":
     console.log("Pode se mover em linha reta.");
     break;
+
   case "dama":
     console.log("Pode se mover em qualquer direção.");
     break;
+
   case "torre":
     console.log("Pode se mover em linha reta.");
     break;
+
   case "peão":
     console.log("Pode se mover somente para frente.");
     break;
+
   case "bispo":
     console.log("Pode se mover em uma linha reta diagonal.");
     break;
+
   case "cavalo":
     console.log(
       "Pode se mover horizontalmente ou verticalmente. Seu movimento forma um L."
     );
     break;
+
   default:
     console.log("Não é uma peça válida.");
+}
+
+//Exercício 7:
+
+const nota = 99;
+
+if (nota >= 90) {
+  console.log("A");
+} else if (nota > 80) {
+  console.log("B");
+} else if (nota >= 70) {
+  console.log("C");
+} else if (nota >= 60) {
+  console.log("D");
+} else if (nota >= 50) {
+  console.log("E");
+} else if (nota < 50) {
+  console.log("F");
+} else if (nota < 0 || nota > 100) {
+  console.log("Nota inválida");
 }
