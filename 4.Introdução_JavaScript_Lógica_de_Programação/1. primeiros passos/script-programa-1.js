@@ -132,3 +132,19 @@ if (nota >= 90) {
 } else if (nota < 0 || nota > 100) {
   console.log("Nota inválida");
 }
+
+//Exercício 8:
+
+const primeiroNumero = 5;
+const segundoNumero = 8;
+const terceiroNumero = 9;
+
+if (
+  primeiroNumero % 2 == 0 ||
+  segundoNumero % 2 == 0 ||
+  terceiroNumero % 2 == 0
+) {
+  console.log("true");
+} else {
+  console.log("false");
+}
