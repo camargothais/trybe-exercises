@@ -135,14 +135,26 @@ if (nota >= 90) {
 
 //Exercício 8:
 
-const primeiroNumero = 5;
+const primeiroNumero = 10;
 const segundoNumero = 8;
-const terceiroNumero = 9;
+const terceiroNumero = 26;
 
 if (
   primeiroNumero % 2 == 0 ||
   segundoNumero % 2 == 0 ||
   terceiroNumero % 2 == 0
+) {
+  console.log("true");
+} else {
+  console.log("false");
+}
+
+//Exercício 9:
+
+if (
+  primeiroNumero % 2 !== 0 ||
+  segundoNumero % 2 !== 0 ||
+  terceiroNumero % 2 !== 0
 ) {
   console.log("true");
 } else {
