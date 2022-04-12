@@ -45,3 +45,45 @@ function menorValor(array) {
 }
 
 console.log(menorValor([2, 4, 6, 7, 10, 0, -3]));
+
+//Exercício 4:
+
+function maiorNome(nomes) {
+  let maiorNome = [];
+
+  for (let i = 0; i < nomes.length; i += 1) {
+    let caracteres = nomes[i].split("");
+    if (caracteres.length > maiorNome.length) {
+      maiorNome = caracteres;
+    } else {
+      maiorNome;
+    }
+  }
+  return maiorNome.join("");
+}
+
+console.log(
+  maiorNome(["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"])
+);
+
+//Exercício 5:
+
+function repeticoes(arrayNumeros) {
+  let numOrdenados = arrayNumeros.sort();
+  for (let i = 0; i < numOrdenados.length; i += 1) {}
+}
+
+console.log(repeticoes([2, 3, 2, 5, 8, 2, 3]));
+
+//Exercício 6:
+
+function somaNumeros(numero) {
+  let inicio = 0;
+  for (let i = 1; i <= numero; i += 1) {
+    inicio = inicio + i;
+  }
+
+  return inicio;
+}
+
+console.log(somaNumeros(5));
